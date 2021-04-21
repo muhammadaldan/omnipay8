@@ -27,7 +27,7 @@
     "php-http/guzzle7-adapter": "^0.1"
   },
   "require-dev": {
-    "muhammadaldan/omnipay8-tests": "1.0"
+    "muhammadaldan/omnipay8-tests": "1.1"
   },
   "autoload-dev": {
     "psr-4": {
