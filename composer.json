@@ -1,45 +1,40 @@
 {
-    "name": "league/omnipay",
-    "type": "metapackage",
-    "description": "Omnipay payment processing library",
-    "keywords": [
-        "omnipay",
-        "checkout",
-        "creditcard",
-        "payment"
-    ],
-    "homepage": "https://omnipay.thephpleague.com/",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Adrian Macneil",
-            "email": "adrian@adrianmacneil.com"
-        },
-        {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.2|^8.0",
-        "omnipay/common": "^3",
-        "php-http/discovery": "^1.12",
-        "php-http/guzzle7-adapter": "^0.1"
+  "name": "muhammadaldan/omnipay8",
+  "type": "metapackage",
+  "description": "Omnipay payment processing library",
+  "keywords": [
+    "omnipay",
+    "checkout",
+    "creditcard",
+    "payment"
+  ],
+  "homepage": "https://omnipay.thephpleague.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adrian Macneil",
+      "email": "adrian@adrianmacneil.com"
     },
-    "require-dev": {
-        "omnipay/tests": "^3"
-    },
-    "autoload-dev": {
-        "psr-4": { "Omnipay\\Tests\\" : "tests" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.1.x-dev"
-        }
-    },
-    "scripts": {
-        "test": "phpunit"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    {
+      "name": "Barry vd. Heuvel",
+      "email": "barryvdh@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "muhammadaldan/omnipay8-common": "dev-master",
+    "php-http/discovery": "^1.12",
+    "php-http/guzzle7-adapter": "^0.1"
+  },
+  "require-dev": {
+    "muhammadaldan/omnipay8-tests": "dev-master"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Omnipay\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
 }
